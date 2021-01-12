@@ -3,6 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Icon, Input, List, Hr, Button, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { StackItem, Stack, Section, Override, Menu } from "@quarkly/components";
+import * as Components from "components";
 import { MdFace } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
@@ -163,6 +164,45 @@ export default (() => {
 				First item
 			</Text>
 		</List>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<List>
+			<Text>
+				First item
+			</Text>
+		</List>
+		<Components.Rk />
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
 		<Link href="#">
 			Some text
 		</Link>
