@@ -95,6 +95,44 @@ export default (() => {
 		<Icon category="md" icon={MdFace} />
 		<Icon category="md" icon={MdFace} />
 		<Input />
+		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Text
+				font="--base"
+				text-transform="uppercase"
+				letter-spacing="1px"
+				max-width="850px"
+				color="--grey"
+				margin="0px"
+			>
+				Eyebrow
+			</Text>
+			<Text
+				as="h1"
+				margin="8px 0px 32px"
+				font="--headline1"
+				md-font="--headline2"
+				color="--dark"
+				max-width="850px"
+			>
+				Heading
+			</Text>
+			<Stack margin-top="auto" color="--grey" font="--base">
+				<StackItem width="50%" md-width="100%">
+					<Text margin="0px">
+						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					</Text>
+				</StackItem>
+				<StackItem width="50%" md-width="100%" />
+			</Stack>
+		</Section>
 		<Input />
 		<List>
 			<Text>
