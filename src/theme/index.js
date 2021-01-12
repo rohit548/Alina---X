@@ -28,7 +28,7 @@ export default {
 		"greyD1": "#637897",
 		"greyD2": "#586D8E",
 		"light": "#F7FBFF",
-		"lightD1": "#EDF2F6",
+		"lightD1": "#000000",
 		"lightD2": "#E4E8EC",
 		"green": "#00875A",
 		"primary": "#0077CC",
